@@ -209,9 +209,6 @@ function mousePressed(){
   }
   }
 }
-function loadHomePage(file){
-  loadStrings(file+'/home.js');
-}
 function handleData(data){
   //Oooo
   for(let i =0; i< data.length; i++){
@@ -220,7 +217,6 @@ function handleData(data){
       if(data[i].includes(passwordInput.value()) &&
          passwordInput.value() != ''){
         let userDirPath = data[i].replace('{'+passwordInput.value()+'}','');
-        loadHomePage(userDirPath);
         
       }else{
         alert("Password is wrong");
