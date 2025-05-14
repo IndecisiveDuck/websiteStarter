@@ -227,8 +227,7 @@ function handleData(data){
   }
 }
 function handleError(error) {
-  //console.error('Oops!', error);
-  console.log("Whoops");
+  alert("Whoops",error);
 }
 function createUser(){
   console.log(passwordInput.value());
@@ -245,5 +244,5 @@ function createUser(){
 function findUser(){
   let dir;
   //the part that does the cool thing
-  dir = loadStrings('/Users/userList.txt',handleData);
+  dir = loadStrings('/Users/userList.txt',handleData,handleError);
 }
