@@ -245,5 +245,5 @@ function createUser(){
 function findUser(){
   let dir;
   //the part that does the cool thing
-  dir = loadStrings('/Users/userList.txt',handleData,handleError);
+  dir = loadStrings('Users/userList.txt',handleData,handleError);
 }
