@@ -212,7 +212,7 @@ function mousePressed(){
 function handleData(data){
   //Oooo
   for(let i =0; i< data.length; i++){
-    console.log(data[i]);
+    console.log(data.length);
     console.log(usernameInput.value());
     console.log(data[i].includes(usernameInput.value()));
     if(data[i].includes(usernameInput.value()) &&
