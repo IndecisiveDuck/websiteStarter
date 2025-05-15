@@ -214,7 +214,7 @@ function handleData(data){
   for(let i =0; i< data.length; i++){
     console.log(data[i]);
     console.log(usernameInput.value());
-    console.log(data[i].includes(usernameInput.value());
+    console.log(data[i].includes(usernameInput.value()));
     if(data[i].includes(usernameInput.value()) &&
        usernameInput.value() != ''){
       if(data[i].includes(passwordInput.value()) &&
