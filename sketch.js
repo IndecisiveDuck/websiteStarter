@@ -227,7 +227,7 @@ function handleData(data){
   }
 }
 function handleError(error) {
-  alert("Whoops",error);
+  console.log("Whoops",error);
 }
 function createUser(){
   console.log(passwordInput.value());
