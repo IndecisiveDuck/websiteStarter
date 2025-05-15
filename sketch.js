@@ -218,7 +218,7 @@ function handleData(data){
          passwordInput.value() != ''){
         let userDirPath = data[i].replace('{'+passwordInput.value()+'}','');
         console.log(userDirPath);
-        window.location.herf = "Users/experimentUser/user.html";
+        window.location.herf = "Users/experimentUser";
       }else{
         alert("Password is wrong");
       }
