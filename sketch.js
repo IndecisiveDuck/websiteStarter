@@ -211,8 +211,8 @@ function mousePressed(){
 }
 function handleData(data){
   //Oooo
-  console.log(data[i]);
   for(let i =0; i< data.length; i++){
+    console.log(data[i]);
     if(data[i].includes(usernameInput.value()) &&
        usernameInput.value() != ''){
       if(data[i].includes(passwordInput.value()) &&
