@@ -212,15 +212,13 @@ function mousePressed(){
 function handleData(data){
   //Oooo
   for(let i =0; i< data.length; i++){
-    console.log(data.length);
-    console.log(usernameInput.value());
-    console.log(data[i].includes(usernameInput.value()));
     if(data[i].includes(usernameInput.value()) &&
        usernameInput.value() != ''){
       if(data[i].includes(passwordInput.value()) &&
          passwordInput.value() != ''){
         let userDirPath = data[i].replace('{'+passwordInput.value()+'}','');
-        //window.location.herf = "../Users/experimentUser/user.html";
+        console.log(UserDirPath);
+        window.location.herf = "Users"+userDirPath+"/user.html";
       }else{
         alert("Password is wrong");
       }
