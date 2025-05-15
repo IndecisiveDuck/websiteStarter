@@ -213,6 +213,8 @@ function handleData(data){
   //Oooo
   for(let i =0; i< data.length; i++){
     console.log(data[i]);
+    console.log(usernameInput.value());
+    console.log(data[i].includes(usernameInput.value());
     if(data[i].includes(usernameInput.value()) &&
        usernameInput.value() != ''){
       if(data[i].includes(passwordInput.value()) &&
@@ -239,7 +241,7 @@ function createUser(){
   let vary = passwordTwoInput.value();
   console.log("Huh");
   if(Pass != vary){
-    return "Error"
+    return "Error";
   }
 }
 function findUser(){
