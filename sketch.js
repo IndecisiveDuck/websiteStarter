@@ -219,10 +219,10 @@ function handleData(data){
         let userDirPath = data[i].replace('{'+passwordInput.value()+'}','');
         console.log(userDirPath);
         window.location.assign("Users"+userDirPath+"/user.html");
-      }else{
+      }else if(i == data.length){
         alert("Password is wrong");
       }
-    }else{
+    }else if(i == data.length){
         alert("Can't find this username");
     }
   }
