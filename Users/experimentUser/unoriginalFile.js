@@ -1,2 +1,4 @@
-let backgroundColor = 220;
-let profileImage = 0;
+const colorCodes ={
+  backgroundColor = 220;
+  squareColor = 
+}
