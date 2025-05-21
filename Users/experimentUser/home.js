@@ -1,4 +1,5 @@
 function setup(){
+  import {colorCodes} from 'unoriginalFile.js'
   createCanvas(windowWidth, windowHeight);
 }
 function draw(){
