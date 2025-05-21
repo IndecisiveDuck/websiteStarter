@@ -3,6 +3,6 @@ function setup(){
 }
 function draw(){
   background(backgroundColor);
-  fill(255,220,50);
+  fill(squareColor);
   rect(50,50,100);
 }
