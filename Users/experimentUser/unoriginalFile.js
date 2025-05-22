@@ -4,3 +4,7 @@ const colorCodes ={
   squG : 220,
   squB : 50
 };
+const margin ={
+  sd : 50,
+  ht : 50
+};
