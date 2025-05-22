@@ -1,5 +1,5 @@
 const colorCodes ={
   backgroundColor : 220,
-  squareColor : 255,220,50
+  squareColor : "255,220,50"
 };
 module.exports = colorCodes;
