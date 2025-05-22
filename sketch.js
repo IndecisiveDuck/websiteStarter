@@ -240,6 +240,8 @@ function createUser(){
   console.log("Huh");
   if(Pass != vary){
     return "Error";
+  }else if(Pass == vary){
+    new File([Blob],"test.html");
   }
 }
 function findUser(){
