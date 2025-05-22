@@ -242,6 +242,7 @@ function createUser(){
   }else if(Pass == vary){
     console.log("Huh");
     new File([Blob],"test.html");
+    window.location.assign("test.html");
   }
 }
 function findUser(){
