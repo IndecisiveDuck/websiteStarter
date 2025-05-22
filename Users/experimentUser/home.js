@@ -1,9 +1,9 @@
 function setup(){
   createCanvas(windowWidth, windowHeight);
-  import{colorCodes}from'./Users/experimentUser/unoriginalFile.js';
+  const colors = require("unoriginalFile.js");
 }
 function draw(){
-  background(colorCodes.backgroundColor);
-  fill(colorCodes.squareColor);
+  background(colors.backgroundColor);
+  fill(colors.squareColor);
   rect(50,50,100);
 }
