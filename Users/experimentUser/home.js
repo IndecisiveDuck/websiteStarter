@@ -4,5 +4,5 @@ function setup(){
 function draw(){
   background(colorCodes.backgroundColor);
   fill(colorCodes.squR,colorCodes.squG,colorCodes.squB);
-  rect(50,50,100);
+  rect(50,50,windowWidth);
 }
