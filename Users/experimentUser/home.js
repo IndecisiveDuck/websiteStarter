@@ -1,6 +1,6 @@
 function setup(){
   createCanvas(windowWidth, windowHeight);
-  import{colorCodes}from'unoriginalFile.js';
+  import{colorCodes}from'./Users/experimentUser/unoriginalFile.js';
 }
 function draw(){
   background(colorCodes.backgroundColor);
