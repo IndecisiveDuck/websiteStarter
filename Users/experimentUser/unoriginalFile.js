@@ -8,3 +8,9 @@ const margin ={
   sd : 50,
   ht : 50
 };
+const profile = function shapeShape(img){
+  shape = createGraphics(50,50);
+  shape.strokeWeight(20);
+  shape.point(25,25);
+  img.mask(shape);
+};
