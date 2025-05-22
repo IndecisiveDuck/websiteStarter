@@ -1,3 +1,5 @@
+function preload(){
+  icon = loadImage('Moth.jpg');
 function setup(){
   createCanvas(windowWidth, windowHeight);
 }
