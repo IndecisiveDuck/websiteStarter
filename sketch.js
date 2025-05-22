@@ -237,10 +237,10 @@ function createUser(){
   console.log(emailInput.value());
   let Pass = passwordInput.value();
   let vary = passwordTwoInput.value();
-  console.log("Huh");
   if(Pass != vary){
     return "Error";
   }else if(Pass == vary){
+    console.log("Huh");
     new File([Blob],"test.html");
   }
 }
