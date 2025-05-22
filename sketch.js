@@ -79,7 +79,7 @@ function draw() {
   
     if(thisWorkPls == true){
     for(let i = 0; i<1; i++){
-      let response = findUser();
+      let response = createUser();
       if(response == "Error"){
         console.log("Ayyye")
       }
