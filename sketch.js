@@ -230,6 +230,17 @@ function handleData(data){
 function handleError(error) {
   console.log("Whoops",error);
 }
+function createFile(filename, content) {
+  const blob = new Blob([content], { type: 'text/plain' });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
 function createUser(){
   console.log(passwordInput.value());
   console.log(usernameInput.value());
